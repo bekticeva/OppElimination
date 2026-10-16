@@ -3,12 +3,22 @@
   <head>
     <meta charset="utf-8">
     <style>
-      body { width: 250px; font-family: sans-serif; padding: 10px; }
+      body { width: 300px; font-family: sans-serif; padding: 10px; }
+      h4 { margin: 12px 0 4px; }
+      ul { max-height: 140px; overflow-y: auto; margin: 0; padding-left: 18px; }
+      button { padding: 6px 12px; }
+      #status { color: #555; font-size: 13px; }
     </style>
   </head>
   <body>
-    <h3>IG Unfollowers</h3>
+    <h3>Loser Tracker</h3>
     <p id="message">Loading...</p>
+    <button id="scan">Scan now</button>
+    <p id="status"></p>
+
+    <h4 id="notBackTitle"></h4>
+    <ul id="notBack"></ul>
+
     <script src="popup.js"></script>
   </body>
 </html>
